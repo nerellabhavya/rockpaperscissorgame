@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet"href="style.css"
 </head>
 <body>
    <h1>ROCK PAPER SCISSORS GAME</h1> 
    <div class="choices">
-    <div class="choice">
+    <div class="choice"id="rock">
         <img src="https://www.pngitem.com/pimgs/m/226-2260873_transparent-rock-paper-scissors-png-png-download.png">
     </div>
-        <div class="choice">
+        <div class="choice"id="paper">
         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg">
         </div>
-          <div class="choice">
+          <div class="choice"id="scissor">
         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223721/scissor.jpeg">
         </div>
+   </div>
+   <div class="scores">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>you</p>
+    </div>
+   </div>
+   <div class="score">
+        <p id="comp-score">0</p>
+        <p>comp</p>
+    </div>
+   </div>
+   <div class="msg-container">
+    <p id="msg">play your move</p>
    </div>
 </body>
 </html>
